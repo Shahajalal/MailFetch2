@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mailfetch.matoosh.me.mailfetch.EmailMessage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/read_radio"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:enabled="false" />
+
+            <TextView
+                android:id="@+id/from_field"
+                android:layout_width="316dp"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:text="From:" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/to_field"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="To: " />
+
+        <TextView
+            android:id="@+id/topic_field"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Topic:" />
+
+        <TextView
+            android:id="@+id/content_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</FrameLayout>

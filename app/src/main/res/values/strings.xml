@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MailFetch</string>
+    <string name="server_connect_label">Connect to a mail server</string>
+    <string name="server_address">Address</string>
+    <string name="server_port">Port</string>
+    <string name="email_username">Email</string>
+    <string name="email_password">Password</string>
+    <string name="email_type">Email server type:</string>
+    <string name="email_secure">Secure</string>
+    <string name="email_imap">IMAP</string>
+    <string name="email_pop3">POP3</string>
+    <string name="btn_connect">Connect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="previous_page">Previous</string>
+    <string name="next_page">Next</string>
+    <string name="email_refresh">Refresh</string>
+</resources>
